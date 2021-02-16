@@ -1,0 +1,21 @@
+.Main {
+    background: rgb(163, 130, 224);
+
+}
+
+.Headline {
+    text-align: center;
+    margin-top: 40px;
+}
+
+img {
+    max-height: 200px;
+    max-width: 200px;
+    align-content: center;
+    border: 20px;
+    border-color: coral;
+}
+.Picture {
+    text-align: center;
+
+}
