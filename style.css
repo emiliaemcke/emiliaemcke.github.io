@@ -1,21 +1,24 @@
 .Main {
-    background: rgb(248, 246, 246);
+    background: rgb(236, 225, 225);
 
 }
 
 .Headline {
     text-align: left;
     margin-top: 40px;
+
 }
 
 h1 {
     text-align: left;
-    color: rgb(96, 168, 93);
+    color: rgb(245, 103, 73);
+    padding-left: 10px;
 }
   
 h2 {
     text-align: left;
-    color: rgb(115, 79, 148);
+    color: rgb(255, 134, 77);
+    padding-left: 10px;
 }
 
 .page2 {
@@ -24,8 +27,10 @@ h2 {
 }
 .part1 {
     font-size: 13px;
-    color: rgb(96, 168, 93);
+    color: rgb(232, 152, 81);
     text-align: left;
+    padding-left: 10px;
+
 
 }
 
@@ -33,14 +38,43 @@ h2 {
     text-align: center;
     font-style: italic;
     font-size: 18px;
-    color:rgb(170, 98, 199);
+    color:rgb(201, 145, 60);
 
 }
 
 .part2 {
     font-size: 13px;
-    color: rgb(96, 168, 93);
+    color: rgb(234, 165, 63);
     text-align: left;
 
+}
+
+#firstimage {
+position: absolute;
+margin-left: 10px;
+border: 3px solid  #E89851;
+}
+
+
+#theweb {
+position: relative;
+    left: 400px;
+    border: 3px solid #E89851;
 
 }
+
+#wemaythink {
+    position: absolute;
+    left: 800px;
+    top: 375px;
+    border: 3px solid #E89851;
+
+}
+
+
+body {
+font-family: Verdana, Arial, sans-serif;
+text-align: left;
+padding-left: 10px;
+}
+
