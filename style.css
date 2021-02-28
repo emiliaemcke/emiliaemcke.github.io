@@ -1,46 +1,232 @@
 .Main {
-    background: rgb(248, 246, 246);
-
+    background: rgb(236, 225, 225);
 }
 
 .Headline {
     text-align: left;
     margin-top: 40px;
 }
+/* Week 2 */
 
+#danceimage {
+text-align: center;
+}
+
+#nudeimage {
+text-align: center;
+}
+
+
+
+/* Week 3 */
 h1 {
     text-align: left;
-    color: rgb(96, 168, 93);
+    color: rgb(245, 103, 73);
+    padding-left: 10px;
 }
   
 h2 {
     text-align: left;
-    color: rgb(115, 79, 148);
+    color: rgb(255, 134, 77);
+    padding-left: 10px;
 }
 
 .page2 {
     background-color: rgb(248, 246, 246);
-
 }
 .part1 {
     font-size: 13px;
-    color: rgb(96, 168, 93);
+    color: rgb(232, 152, 81);
     text-align: left;
-
+    padding-left: 10px;
 }
 
 .quote {
     text-align: center;
     font-style: italic;
     font-size: 18px;
-    color:rgb(170, 98, 199);
-
+    color:rgb(201, 145, 60);
 }
 
 .part2 {
     font-size: 13px;
-    color: rgb(96, 168, 93);
+    color: rgb(234, 165, 63);
     text-align: left;
 
+}
+
+#firstimage {
+position: absolute;
+margin-left: 10px;
+border: 3px solid  #E89851;
+}
+
+
+#theweb {
+position: relative;
+    left: 400px;
+    border: 3px solid #E89851;
 
 }
+
+#wemaythink {
+    position: absolute;
+    left: 800px;
+    top: 375px;
+    border: 3px solid #E89851;
+
+}
+
+body {
+font-family: Verdana, Arial, sans-serif;
+text-align: left;
+padding-left: 10px;
+}
+
+
+/* Week 4 */
+
+ h1.Heading4 {
+    text-align: center;
+    font: larger;
+    color:#5FB9F5 !important;
+}
+    
+.Picture4 {
+    text-align: center;
+}
+
+img {
+    width: 390px;
+    height: 550px;
+    margin-bottom: 20px;
+}
+
+.thumbnails {
+    border:solid  1px #F09B29;
+    height: 30px;
+    width: 30%;
+    margin: auto;
+    display: inline-grid; 
+}
+ .buttons {
+    margin: auto;
+    width: 400px;
+ }
+
+ h1.familyheading {
+    text-align: center;
+    font: larger;
+    color:#5FB9F5 !important;
+ }
+
+ .familypic {
+    width: 100px;
+    height: 200px;
+ }
+
+ .btn-primary {
+    background-color: rgb(231, 150, 27);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 20px;
+ }
+
+ .btn2 {
+    background-color: rgb(231, 150, 27);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 20px;
+
+ }
+
+ .btn3 {
+    background-color: rgb(231, 150, 27);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 20px;
+
+ }
+
+ .familypic2 {
+text-align: right;
+margin-top: 0%;
+
+
+ }
+
+ .focacciapic {
+text-align: right;
+
+ }
+
+ .babka {
+     text-align: center;
+
+ }
+
+ .container { 
+   display: flex; 
+ }
+ 
+ .divider {
+    display: flex;
+    background-size: 50% auto;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+ }
+
+ /* Baking page */
+
+ 
+
+ .baking {
+    background-color: #B3C9F4;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 2px 16px;
+
+ }
+
+ .focaccia {
+    background-color: #F4CBB3;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 2px 16px;
+
+ }
+
+ .babkasecond {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 2px 16px;
+
+ }
+
+ .pianovideo {
+    margin-left: 320px;
+    
+ }
+
+ .pianostuff {
+    display: flex !important;
+    
+ }
