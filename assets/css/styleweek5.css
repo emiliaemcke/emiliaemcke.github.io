@@ -80,6 +80,8 @@
     font-weight: 10; 
     color: rgb(199, 11, 89);
     font-style: italic;
+    position: absolute;
+    bottom: 30px;
 }
 
 .next2{
@@ -89,5 +91,51 @@
     font-size: 30px; 
     text-align: right;
 
+
+}
+
+.grid-item {
+    display: inline-grid;
+    width: 200px;
+    height: 200px;
+}
+
+.grid-item img{
+    width: 100%;
+}
+
+.grid {
+    margin: 5px;
+    display: inline-block;
+    width: 405px;
+    border: #111 solid 1px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+
+}
+
+.left-col {
+    height: 100%;
+
+}
+
+.center-col {
+    height: 100%;
+}
+
+.right-col {
+    height: 100%;
+    border: steelblue solid 1px;
+    position: relative;
+   
+}
+
+.right-col .next-link {
+    position: absolute;
+    bottom: 0;
+    right: 0
 
 }
