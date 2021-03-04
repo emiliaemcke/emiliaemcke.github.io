@@ -1,0 +1,93 @@
+.w5heading {
+    color: #111; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 205px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center; 
+}
+
+.w5heading2 {
+    float: left;
+    transform: rotate(270deg);
+	transform-origin: left 0 top 100;
+    margin-top: 300px;
+    text-align: left;
+    color:#646DF5  ; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 105px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center; 
+}
+
+
+.w5body2 {
+    color: #111; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 30px; 
+    font-weight: 300; 
+    line-height: 32px; 
+    margin: 0 0 72px; 
+    text-align: center; 
+}
+
+.w5body {
+    color: #63E698; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 30px; 
+    font-weight: 300; 
+    line-height: 32px; 
+    margin: 0 0 72px; 
+    text-align: center; 
+}
+
+.w5par {
+    color: #685206;
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 14px; 
+    line-height: 24px; 
+    margin: 0 0 24px; 
+    text-align: justify; 
+    text-justify: inter-word; 
+}
+
+
+.next {
+        background-color: #63E698;
+        color: #111; 
+        font-family: 'Open Sans', sans-serif; 
+        font-size: 30px; 
+
+}
+
+.nastynetsimage {
+    background-color: #ccc;
+    background-image: url("nastyart.jpg");
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    text-align: center;
+}
+
+.w5nextbody{
+    text-align: right;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 30px; 
+    font-weight: 10; 
+    color: rgb(199, 11, 89);
+    font-style: italic;
+}
+
+.next2{
+    background-color:rgb(199, 11, 89);
+    color: #ccc ; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 30px; 
+    text-align: right;
+
+
+}
