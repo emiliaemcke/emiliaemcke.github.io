@@ -1,17 +1,31 @@
-<html lang="en" style="background-color: rgb(240, 231, 180);">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Next Page</title>
     <link rel="stylesheet" href="../assets/css/styleweek5.css">
+    <style>
+
+		#coolpage {
+			min-height: 100vh;
+			background-size: 300%;
+			background-image: linear-gradient(90deg, #ffd884, rgb(252, 138, 172), #97318f);	
+			animation: bg-animation 5s infinite;
+		}
+
+		@keyframes bg-animation {
+			0% {background-position: left}
+			50% {background-position: right}
+			100% {background-position: left}
+		}
+	</style>
+
 </head>
 
-<body>
-    
-    <div class="gradient">
+
+<body id="coolpage">
   
-    </div>
 
 <div class="container">
     <div class="left-col">
