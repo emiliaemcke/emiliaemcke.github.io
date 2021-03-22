@@ -1,0 +1,146 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif; 
+}
+
+h2{
+font-size: 80px; 
+font-weight: bold; 
+letter-spacing: -1px; 
+color: #4B754F;
+font-style: italic;
+
+}
+
+p{
+    font-size: 20px; 
+    letter-spacing: -1px; 
+    color:rgb(236, 142, 142);
+    font-style: italic;
+
+
+}
+
+.header {
+  grid-area: header;
+  background-color: #98DA92;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header' 
+    'left left middle middle right right' 
+    'footer footer footer footer footer footer';
+} 
+
+.left,
+.middle,
+.right {
+  padding: 10px;
+  height: 300px
+}
+
+.left {
+  grid-area: left;
+}
+
+
+.middle {
+  grid-area: middle;
+}
+
+
+.right {
+  grid-area: right;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #74A66F;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left left left left left' 
+      'middle middle middle middle middle middle' 
+      'right right right right right right' 
+      'footer footer footer footer footer footer';
+  }
+}
+
+.button {
+    stroke: wheat;
+
+}
+
+
+.container { 
+    display: flex; 
+  }
+  
+  .divider {
+     display: flex;
+     background-size: 50% auto;
+     top: 0;
+     left: 0;
+     width: 50%;
+     height: 100%;
+     background-color: white;
+     align-items: center;
+     text-align: center;
+  }
+ 
+  /* images */
+ 
+  
+ 
+  .baking {
+     background-color: #68d851;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     padding: 2px 16px;
+ 
+  }
+ 
+  .focaccia {
+     background-color: #e49bab;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     padding: 2px 16px;
+ 
+  }
+ 
+  .babkasecond {
+     background-color: rgb(61, 172, 111);
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     padding: 2px 16px;
+ 
+  }
+  img {
+    width: 390px;
+    height: 550px;
+    margin-bottom: 20px;
+}
+
+
+
+.focacciapic {
+text-align: right;
+
+}
+
+.babka {
+    text-align: center;
+
+}
