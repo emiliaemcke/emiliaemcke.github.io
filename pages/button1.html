@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/button.css">
+    <title>Button</title>
+</head>
+<body class="pinkBg">
+    <h1>Please do not press the button....</h1>
+    <br>
+    <button id="btnClick"></button>
+
+    <script>
+        var btn = document.getElementById("btnClick");
+        btn.addEventListener("click",function(){
+            window.location="button.html";
+        });
+    </script>
+</body>
+</html>

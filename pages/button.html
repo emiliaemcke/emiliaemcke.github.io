@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/button.css">
+    <title>Explosion</title>
+</head>
+<body class="greyBg" onkeypress="keyPressFun(event)">
+    <h1>Please do not press the button....</h1>
+    <br>
+    <img src="../assets/images/pageImg.png">
+    <p>type "again" to return to start</p>
+
+    <script>
+        var prev=0;
+        var word="again";
+
+        function keyPressFun(e){
+            var c=String.fromCharCode(e.keyCode);
+            c=c.toLocaleLowerCase();
+            if(prev<word.length)
+            {
+                if(word[prev]==c)
+                {
+                    prev++;
+                }
+                else
+                {
+                    prev=0;
+                }
+                if(prev==word.length)
+                {
+                    window.location="button1.html";
+                }
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.pinkBg{
+    height: 100vh;
+    background-color: #ffd1f6;
+    padding: 80px;
+    text-align: center;
+    overflow-y: hidden;
+}
+.pinkBg h1{
+    font-size: 5em;
+    font-family: sans-serif;
+    color: #aaadff;
+}
+.pinkBg button{
+    -webkit-box-shadow: 20px 20px 5px 0px rgba(0,0,0,0.26);
+    -moz-box-shadow: 20px 20px 5px 0px rgba(0,0,0,0.26);
+    box-shadow: 20px 20px 5px 0px rgba(0,0,0,0.26);
+    border-radius: 30px;
+    background-color: #ff0808;
+    border: none;
+    width:250px;
+    height: 100px;
+    margin-top: 100px;
+    cursor: pointer;
+    outline: none;
+}
+.greyBg{
+    height: 100vh;
+    background-color: #827a7a;
+    padding: 80px;
+    text-align: center;
+    overflow-y: hidden;
+}
+.greyBg h1{
+    font-size: 5em;
+    font-family: sans-serif;
+    color: #ffd1f6;
+}
+.greyBg img{
+    width: 25%;
+}
+.greyBg p{
+    color: #aaadff;
+    font-size: 2.8em;
+    font-weight: bold;
+    margin-left: 600px;
+}
