@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Circles</title>
+</head>
+<body id="bd">
+    
+    <script>
+        $(document).click(function(e){
+
+            var ranNum=Math.floor(getRandomArbitrary(100,200));
+            var x = e.clientX-100;
+            var y = e.clientY-100;
+            var id = x+"-"+ranNum
+
+            $("#bd").append('<span id="'+id+'" class="circle" style="width:'+ranNum+'px;height:'+ranNum+'px;top:'+y+'px;left:'+x+'px"></span>');
+            moveDownUp(id,ranNum,y);
+        });
+        
+        function getRandomArbitrary(min, max) {
+            return Math.random() * (max - min) + min;
+        }
+
+        function moveDownUp(id,size,y)
+        {
+            var h=screen.height-100;
+            var yH=y;
+            var yUp=y;
+            setInterval(function(){
+                if(h>(size+yH))
+                {
+                    yH=yH+10;
+                    yUp=yH;
+                    $("#"+id).css("top",yH+"px");
+                }
+                else
+                {
+                    if(yUp>0)
+                    {
+                        yUp=yUp-10;
+                        $("#"+id).css("top",yUp+"px"); 
+                    }
+                }
+            },50);
+        }
+    </script>
+</body>
+</html>

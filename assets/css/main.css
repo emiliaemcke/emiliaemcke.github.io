@@ -1,0 +1,9 @@
+body{
+    position: relative;
+    max-height: 100vh;
+}
+.circle{
+    position: absolute;
+    border-radius: 1000px;
+    background-color: rgb(238, 181, 255);
+}
