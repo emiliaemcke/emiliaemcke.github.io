@@ -1,0 +1,35 @@
+.col-4{
+    margin-bottom: 50px;
+}
+.box{
+    background-color: #FDE9A1;
+    border-radius: 10px;
+    width: 55%;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: none;
+}
+.box.show img{
+    display: block;
+    border: 2px solid #88ABBF;
+}
+.box.show{
+    border: 5px solid #88ABBF;
+}
+.box.show.error{
+    display: block;
+    border: 5px solid #D66B43;
+}
+.successText{
+    color: #7AC0E8;
+}
+.errorText{
+    color: #D66B43;
+}
